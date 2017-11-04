@@ -58,12 +58,7 @@ app.post('/second-api',function(request,response){
 
 app.put('/second-api/:element',function(req,res)
 {
-
-
     res.send(req.params.element);
-
-
-
 })
 
 
